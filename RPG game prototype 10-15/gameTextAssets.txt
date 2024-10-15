@@ -1,0 +1,137 @@
+Character Select Screen     21
+Choose a party member to begin your journey:
+
+1. Warrior
+Strength: 5
+Initiative: 3
+Constitution: 5
+Intelligence: 3
+
+2. Mage
+Strength: 2
+Initiative: 4
+Constitution: 2
+Intelligence: 6
+
+3. Rogue
+Strength: 3
+Initiative: 6
+Constitution: 3
+Intelligence: 4 
+
+Confused? Input a question mark for more information on what each stat means.
+
+Stat Information    12
+In this game, there are four defining attributes that make up a character.
+
+Strength determines how much damage you can deal with physical attacks. Characters using melee weapons will do well to have a high score in this area. Some heavier items will require a certain amount of strength to use.
+
+Initiative plays a role in determining turn order and your chance to dodge attacks. Characters with high initiative will often go first, in effect making them faster than their enemies. This statistic also functions similarly to dexterity, where some items that require more cordination, such as bows and specific armor, will require a certain amount of initiative to use.
+
+Constitution is all about defense. You can soak up more damage and are more resistant to status effects when you have a high constitution, and vice versa. Some armor will require higher constitution to use, and some items will poison you if you are below a threshold of constitution.
+
+Intelligence will increase the amount of base mana you have and the amount of effectiveness that spells have on both allies and enemies. Some magic items will require enough intelligence to use, and spells used by mages will require much more mana in exchange for their potency.
+
+
+Over time, you will be able to modify and improve your core attributes, but these starting values will define your playstyle in the early game. It is a good idea to lean into the advantages you already possess, as you can use strategy to mitigate weaknesses in your stats.
+
+Area 1    11
+cFEnemy=   30
+cFEnvironment=   44
+cFMerchant=  9
+cFNPC=   4
+cFDevilsWheel=   2
+cFHazard=   6
+cFChoice=   2
+cFShrine=   2
+cFBoss=   1
+Enemies:      1
+1
+
+Types of Enemies    
+Goblin ID:  1   17
+STR: 01
+INI: 02
+CON: 02
+INT: 01
+HP: 018
+Actions: 05
+a204+04
+s2
+g
+a304+05
+m6
+Patterns: 4
+5,1,1,2
+3,4,2
+3,1
+1,2
+Goblin
+
+Bandit ID:  2   16
+STR: 02
+INI: 03
+CON: 02
+INT: 02
+HP: 025
+Actions: 04
+a204+06
+m1
+g
+m2
+Patterns: 4
+1,2
+4,3,1
+2
+3
+Bandit
+
+
+Types of spells
+Fireball ID:  3   4
+fire
+a402+06f
+15
+Fireball      
+
+Arcane Counter ID:  4    4
+none
+m4
+5
+Arcane Counter
+
+Mudslide ID:  5     4
+earth
+m5
+10
+Mudslide      
+
+Sharpen ID:  6      4
+none
+m6
+8
+Sharpen
+
+Riposte ID:  7     4
+none
+m7
+10
+Riposte
+
+Goad ID:  8    4
+none
+m8
+5
+Goad   
+
+Regrowth ID:  9    4
+none
+m9
+0
+Regrowth
+
+Transfusion ID:  10   4
+none
+m10
+0
+Transfusion
